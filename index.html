@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="https://kit.fontawesome.com/05ce5ed433.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/05ce5ed433.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@1,400;1,500&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/logo-kishore-removebg-previewkjhg.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Service</a></li>
+                    <li><a href="#portfolio">personal</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND DESIGNER</p>
+                <h1>Hi,I'm <span>kishore</span> <br>from india</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/hidden.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey Hi,I am kishore currently pursuing my pre final year in the stream of Electronics and
+                        communication engineering at chennai institute of technology,I am very dediacted and self
+                        motivated person. I like begin with my leadership Qualities ,i am class represenatative in my
+                        pre-final year and organised one event in my college department symposium the event named as
+                        LIGHT CAMERA AND ACTION and i organised 2nd level silambam state match .I currently done a 2
+                        project one project is mini-project is named as TESLA-COIL and another project is DISTANCE
+                        MONITORING ROBOT and is based on IOT.I done a certification in the field of
+                        phython,figma,front-end webdevelopment,ui/ux design and basics of java programming.I
+                        non-academic related i learn SILAMBAM,KARATE,YOGA and FOOTBALL.And,i trained Silambam for Some
+                        of the students </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Sports')">Sports</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX </span><br>Design Web/App interfaces</li>
+                            <li><span>Frontend Developer</span><br>Web interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>10th</span><br>finished my 10th in St.Stephen Matriculation School in 2018</li>
+                            <li><span>12th</span><br>finished My 12th in St.vincent palloti Matriculation Hr.Sec school
+                                in 2020</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Sports">
+                        <ul>
+                            <li><span>Silambam </span><br>Personal Trainer</li>
+                            <li><span>Football</span><br>player</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------service----->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-weebly"></i>
+                    <h2>Web DESIGNER</h2>
+                    <p>I begin with my own interest in front-end web design and i finished certification in UDEMY,GREAT
+                        LEARNING and some of the online resource.
+                    <p>And,i done a some of projects in front-end webdesign</p>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX designers are responsible for the design and implementation of all the experiences a user
+                        has when interacting with a digital tool, such as a website. The UI/UX designer will work
+                        closely with our marketing team and designers to ensure seamless web/mobile design and the
+                        successful implementation of UI/UX best practices and principles across all our digital
+                        platforms</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-medal"></i>
+                    <h2>Sports</h2>
+                    <p>Sports coaches/instructors help children and adults to realise their potential in a sporting
+                        discipline through the provision of instruction, advice and encouragement..</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------personal---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Work</h1>
+            <div class="Work-list">
+                <div class="work">
+                    <img src="/webdeveleper.jpg" alt="">
+                    <div class="layer">
+                        <h3>Front-End developer</h3>
+                        <p>This includes the layout, visual design, and user interactions. It
+                            involves using technologies such as HTML, CSS, and JavaScript to create the interactive and
+                            visually appealing elements of a website. </p>
+                        <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/appdeveloper.jpg" alt="">
+                    <div class="layer">
+                        <h3>UI/UX Designer</h3>
+                        <p>
+                            A UI/UX Designer is someone who can design both the visual design and the user experience,
+                            They work together to make sure that the product is not only visually appealing but also
+                            user-friendly.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/sports man.jpg" alt="">
+                    <div class="layer">
+                        <h3>Sports</h3>
+                        <p>Physical sports refer to athletic activities that involve the use of a person's physical
+                            abilities, such as strength, speed, endurance, and coordination.
+                            <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="#"><i class="fa-light fa-paper-plane"></i>chinnathambikishore.5555@gmail.com</a>
+                    <p><i class="fa-solid fa-phone-plus"></i>9444042972,6374733358</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/+919444042972"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=1ojh346z8xmq7&utm_content=femr9wu"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/kishore-c-97364b249"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/123RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"></div>
+            </div>
+            <div class="copyright">
+                <p>Copyright@ Kishore,Made with By kishore </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
